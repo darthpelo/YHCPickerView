@@ -14,16 +14,14 @@
 
 @end
 
-@interface YHCPickerView : UIView<UIActionSheetDelegate,UIPickerViewDataSource,UIPickerViewDelegate,UISearchBarDelegate>{
+@interface YHCPickerView : UIView<UIActionSheetDelegate,UIPickerViewDataSource,UIPickerViewDelegate>{
     
     UIPickerView *pickerView;
     UIToolbar *picketToolbar;
-    UISearchBar *txtSearch;
     NSArray *arrRecords;
     UIActionSheet *aac;
     
     NSMutableArray *copyListOfItems;
-    BOOL searching;
 	BOOL letUserSelectRow;
     
     id <YHCPickerViewDelegate> delegate;
@@ -34,8 +32,7 @@
 @property (nonatomic, retain) NSArray *arrRecords;
 @property (nonatomic, retain) id <YHCPickerViewDelegate> delegate;
 
--(id)initWithFrame:(CGRect)frame withNSArray:(NSArray *)arrValues;
--(void)showPicker;
-- (void)searchTableView;
--(void)btnDoneClick;
+- (id)initWithFrame:(CGRect)frame withNSArray:(NSArray *)arrValues;
+- (void)showPicker;
+- (void)btnDoneClick;
 @end
