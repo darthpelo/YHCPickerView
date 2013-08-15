@@ -8,7 +8,7 @@
 If you want to customize elements/list in UIPickerView then YHCPickerView is for you. 
 
 ##Features
-Compared to the original project, I made ​​changes useful for another project of mine:
+Compared to the original project, I made ​​changes useful for [another project](https://github.com/darthpelo/pappami-iOS) of mine:
 * ToolBar color is the same respect UIPickerView
 * animation is the same like UIPickerView
 * background alpha & color like UIPickerView
