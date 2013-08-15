@@ -1,17 +1,18 @@
 #YHCPickerView
 
-![image](https://lh6.googleusercontent.com/-RIFuyfPqJns/UIKfVxUUu4I/AAAAAAAAAGM/v47WtyCAdCQ/s480/YHCPickerView_1.png)
-
-![image](https://lh6.googleusercontent.com/-VlbPDTPYN5s/UIKfW9PscLI/AAAAAAAAAGU/9WXKemUsHTc/s480/YHCPickerView_2.png)
+![image](https://dl.dropboxusercontent.com/u/1655028/pickenerimage.png)
 
 
 ##YHCPickerView
 
-If you want searching functionality in UIPickerView then YHCPickerView is for you!
+If you want to customize elements/list in UIPickerView then YHCPickerView is for you. 
 
 ##Features
-* Search among hundreds of records from UIPickerView
-* get selectedIndex and selectedText
+Compared to the original project, I made ​​changes useful for another project of mine:
+* ToolBar color is the same respect UIPickerView
+* animation is the same like UIPickerView
+* background alpha & color like UIPickerView
+* remove search function (but is very simple to reimplement)
 
 ##How To
 
@@ -66,9 +67,4 @@ THE SOFTWARE.
 
 ## Credits
 
-YHCPickerView was created by [Yashesh Chauhan](https://github.com/yashesh87) 
-
-Feel free to contact me,
-
-- [@chauhan_yashesh] (http://twitter.com/chauhan_yashesh)
-- http://www.yashesh.in
+Original YHCPickerView was created by [Yashesh Chauhan](https://github.com/yashesh87) 
