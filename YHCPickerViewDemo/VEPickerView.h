@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol YHCPickerViewDelegate <NSObject>
+@protocol VEPickerViewDelegate <NSObject>
 
 -(void)selectedRow:(int)row withString:(NSString *)text;
 
 @end
 
-@interface YHCPickerView : UIView<UIActionSheetDelegate,UIPickerViewDataSource,UIPickerViewDelegate>{
+@interface VEPickerView : UIView <UIActionSheetDelegate,UIPickerViewDataSource,UIPickerViewDelegate>{
     
     UIPickerView *pickerView;
     UIToolbar *picketToolbar;
@@ -24,13 +24,13 @@
     NSMutableArray *copyListOfItems;
 	BOOL letUserSelectRow;
     
-    id <YHCPickerViewDelegate> delegate;
+    id <VEPickerViewDelegate> delegate;
     
 }
 
 
 @property (nonatomic, retain) NSArray *arrRecords;
-@property (nonatomic, retain) id <YHCPickerViewDelegate> delegate;
+@property (nonatomic, retain) id <VEPickerViewDelegate> delegate;
 
 - (id)initWithFrame:(CGRect)frame withNSArray:(NSArray *)arrValues;
 - (void)showPicker;

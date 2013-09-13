@@ -1,14 +1,14 @@
 //
-//  YHCPickerView.m
+//  VEPickerView.m
 //  TestDB
 //
 //  Created by Yashesh Chauhan on 01/10/12.
 //  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
-#import "YHCPickerView.h"
+#import "VEPickerView.h"
 
-@implementation YHCPickerView
+@implementation VEPickerView
 @synthesize arrRecords,delegate;
 
 
