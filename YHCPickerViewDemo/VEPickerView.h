@@ -10,7 +10,8 @@
 
 @protocol VEPickerViewDelegate <NSObject>
 
--(void)selectedRow:(int)row withString:(NSString *)text;
+- (void)selectedRow:(int)row withString:(NSString *)text;
+- (void)pickerClosed;
 
 @end
 
